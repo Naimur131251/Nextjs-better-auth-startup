@@ -36,7 +36,7 @@ const SignUpPage = () => {
 
   return (
     <Form
-      className="flex w-96 flex-col gap-4 mx-auto mt-50"
+      className="flex w-96 flex-col gap-4 mx-auto mt-30"
       render={(props) => <form {...props} data-custom="foo" />}
       onSubmit={onSubmit}
     >
